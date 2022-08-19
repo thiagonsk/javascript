@@ -1,0 +1,86 @@
+===========================================================================================================
+AULA 07 14/08/2022 OBS: ORDEM DE PRECEDÊNCIA DE OPERADORES 1º ARITIMÉTICOS, 2º RELACIONAL, 3º LÓGICO E 4º TERNÁRIO.
+
+OPERADORES PARTE 1 :
+
+ % = resto da divisão, ex.: 8 % 5 == 3
+
+ ORDEM DE PRECEDÊNCIA DOS OPERADORES ARITIMÉTICOS:
+
+()
+**
+* / % (se estiverem na mesma linha sera executado da esquerda para direita.)
++ -
+
+ AUTO-ATRIBUIÇÃO:
+
+var n = 3  (atribuição simples)
+n += 4 (n = n + 4 )
+n -= 4 (n = n - 4 )
+n *= 4 (n = n * 4 )
+n /= 4 (n = n / 4 )
+n %= 4 (n = n % 4 )
+n **= 4 (n = n ** 4 )
+
+ATRIBUIÇÃO DE INCREMENTO:
+
+var n = 3
+n++ (n == 4)
+n-- (n == 3)
+
+===========================================================================================================
+AULA 08 14/08/2022
+
+OPERADORES PARTE 2:
+
+OPERADORES RELACIONAIS: obs: resultado de operadores relacionais são sempre boleanos.
+
+5  > 2 = True
+7  < 4 = False
+8 >= 8 = True
+9 <= 7 = False
+5 == 5 = True
+4 != 4 = False
+
+OPERADOR DE IDENTIDADE:
+O operador === verifica se as variaveis são idênticas, ou seja, se tem o mesmo valor e tipo.
+EX.:
+
+5 == 5    = True
+5 == '5'  = True
+5 === '5' = False
+5 === 5   = True
+obs.: === (Igual Restrito), !== (Desigual Restrito)
+
+OPERADORES LÓGICOS:
+! = Negação
+&& = Conjunção (E lógico)
+|| = Disjunção (OU lógico)
+
+PRECEDÊNCIA:
+! -> && -> ||
+
+OPERADOR TERNÁRIO:
+Se chama ternário porque ele junta 3 operandos.
+Ex.: Teste ? True : False
+     media >= 7.0 ? "aprovado" : "reprovado"
+
+===========================================================================================================
+AULA 09 15/08/2022
+INTRODUÇÃO AO DOM:
+DOM = Document Object Model
+===========================================================================================================
+AULA 12 18/08/2022
+CONDIÇÕES PARTE 2
+
+SWITCH: Sempre usar 'break' após cada 'case', depois do ultimo 'case' fazer um comando 'default'.(break opcional, é usado mais para prevenção de erros)
+Obs.:'switch' dever ser usado para situações com respostas multiplas porém pontuais, ex 1,2,3,4,5,6...
+caso precise testar intervalos use o 'if'. ex quero um valor entre 10 e 35....
+
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
+===========================================================================================================
