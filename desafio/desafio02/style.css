@@ -12,16 +12,8 @@ h1 {
     color: white;
 }
 
-p {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.534);
-    text-align: center;
-    font-style: italic;
-    color: white;
-}
-
 div {
-    text-align: center;
-    padding: 10px;
+    padding: 5px;
 }
 
 main {
@@ -33,3 +25,9 @@ main {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
 }
 
+footer {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.534);
+    text-align: center;
+    font-style: italic;
+    color: white;
+}
