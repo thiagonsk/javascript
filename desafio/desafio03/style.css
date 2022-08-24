@@ -12,6 +12,12 @@ h1 {
     color: white;
 }
 
+p {
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.534);
+    text-align: left;
+    font-weight: bold; 
+}
+
 main {
     background-color: white;
     margin: auto;
@@ -21,10 +27,13 @@ main {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
 }
 
-footer {
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.534);
-    text-align: center;
-    font-style: italic;
-    color: white;
-    margin: 10px;
+div#res {
+    margin-top: 10px;
 }
+
+footer {
+    text-align: center;
+    color: white;
+    padding-top: 20px;
+}
+
