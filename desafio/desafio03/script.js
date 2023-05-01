@@ -20,15 +20,29 @@ function contar() {
         if (i < f) {
             //contagem progressiva
             for(c = i; c <= f; c += p) {
-                res.innerHTML += ` ${c} \u{1f449}`
+                res.innerHTML += ` ${c}`
+                if ((c + p) > f) {
+                    res.innerHTML += ` \u{1f3c1}`
+                } 
+                else {
+                    res.innerHTML += ` \u{1f449}`
+                }
             }
         } else {
             //contagem regressiva
             for(c = i; c >= f; c -= p) {
-                res.innerHTML += ` ${c} \u{1f449}`
+                res.innerHTML += ` ${c}`
+                if ((c - p) < f) {
+                    res.innerHTML += ` \u{1f3c1}`
+                } 
+                else {
+                    res.innerHTML += ` \u{1f449}`
+                }
             }
         }
-
-        res.innerHTML += ` \u{1f3c1}`
     }
+}
+
+function limpar() {
+    res.innerHTML = `preparando a contagem...`
 }

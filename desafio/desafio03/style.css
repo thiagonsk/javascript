@@ -27,6 +27,17 @@ main {
     box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
 }
 
+form#dados {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input {
+    box-sizing: border-box;
+}
+
 div#res {
     margin-top: 10px;
 }
@@ -35,5 +46,6 @@ footer {
     text-align: center;
     color: white;
     padding-top: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.267);
 }
 
